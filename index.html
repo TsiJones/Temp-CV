@@ -1,71 +1,107 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tansi's Personal Site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@0,500;1,400&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tansi Jones</title>
   </head>
   <body>
-      <table cellspacing="20">
-          <tr>
-              <td><img src="https://www.smallbizgenius.net/wp-content/uploads/2019/06/smallbizgenius_favicon.png" alt="tansi jones" /></td>
-              <td><h1>Tansi Jones</h1>
-                <p>
-                  <em><a>Founder and CTO of <a href="#"><strong>I-Network</strong></a>,</em>
-                </p>
-                <p>
-                  I am an iOS and Web developer. I 💖 driving and I Design my own games.
-                </p></td>
-          </tr>
-      </table>
-    
-    
-    <hr />
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>The Complete iOS App Development Bootcamp</li>
-      <li>The Complete Web Development Bootcamp</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010-2013</td>
-                <td>Lead Developer at TurkSat</td>
-            </tr>
-            <tr>
-                <td>2014</td>
-                <td>Researcher at Girne American University</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    
-    <table cellspacing="10">
-        <tr>
-            <td>Web Development</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>iOS App Development</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Game Design</td>
-            <td>⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-   <a href="hobbies.html">My Hobbies</a>
-   <a href="contact.html">Contact Me</a>
+    <div class="top-container">
+      <img class="top-cloud" src="img/cloud.png" alt="cloud-img" />
+      <h1>I'm Tansi Jones.</h1>
+      <h2>a programmer.</h2>
+      <img class="bottom-cloud" src="img/cloud.png" alt="cloud-img" />
+      <img class="mount" src="img/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          src="https://www.flaticon.com/svg/static/icons/svg/1256/1256650.svg"
+          alt=""
+        />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I am and Mobile and Web Developer. I'm the founder and CEO of
+          <span class="sp1">Code With Jones</span>. I <span>❤</span> playing
+          games, and am currently designing my own.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class=""
+            src="https://www.flaticon.com/svg/static/icons/svg/3437/3437364.svg"
+            alt=""
+          />
+          <h3>App Development</h3>
+          <p>
+            I started learning to code when i was 15 years old because i wanted
+            to make my own video games i.e Pro Evolution Soccer, overtime, i
+            have gained a wealth of experience designing and developing mobile
+            and web applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="img2"
+            src="https://www.flaticon.com/svg/static/icons/svg/1005/1005141.svg"
+            alt=""
+          />
+          <h3>Web Development</h3>
+          <p>
+            I started learning to code when i was 15 years old because i wanted
+            to make my own video games i.e Pro Evolution Soccer, overtime, i
+            have gained a wealth of experience designing and developing mobile
+            and web applications.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Hit Me Lets Get Creative.</h3>
+        <p class="contact-msg">
+          Have any Designs you want to bring to live? Hit the contact me button
+          lets talk.
+        </p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a
+        class="footer-link"
+        href="https://twitter.com"
+        target="_blank"
+        >Twitter</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.facebook.com"
+        target="_blank"
+        >Facebook</a
+      >
+      <p class="copyright">© 2020 code with jones.</p>
+    </div>
   </body>
 </html>
